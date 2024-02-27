@@ -1,0 +1,124 @@
+@media only screen and (max-width:1155px){
+    .footer-about{
+        width:300px;
+    }
+    .footer-contact{
+        width:300px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .logo-about-img{
+        width:230px;
+    }
+}
+
+@media only screen and (max-width:1035px){
+    .footer-about{
+        width:250px;
+    }
+    .footer-contact{
+        width:250px;
+    }
+}
+
+
+@media only screen and (max-width:1000px){
+    .nav-list>li>a{
+        font-size:13px;
+    }
+    .h2-paragon-gallery{
+        font-size:22px;
+    }
+    .header-icon{
+        display:none;
+    }
+}
+
+@media only screen and (max-width:955px){
+    .footer-about{
+        width:200px;
+    }
+    .footer-contact{
+        width:200px;
+    }
+    .footer-h4text{
+        width:200px;
+        font-size:13px;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .logo-about-img{
+        width:200px;
+        margin-top:30px;
+    }
+    
+}
+
+@media only screen and (max-width:825px){
+    .footer-about{
+        width:180px;
+    }
+    .footer-contact{
+        width:180px;
+    }
+    .footer-h4text{
+        width:170px;
+        font-size:12px;
+    }
+}
+
+
+@media only screen and (max-width:820px){
+    .nav-list>li>a{
+        font-size:11px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .section-price{
+        flex-wrap:wrap;
+    }
+    .logo-about-img{
+        width:300px;
+    }
+    .nav-list>li>a{
+        display:none;
+    }
+    .menu-bar{
+        display:block;
+        font-size:30px;
+    }
+    .logo-img{
+        width:95px;
+    }
+    .footer-conteiner{
+        flex-wrap:wrap;
+    }
+    .footer-h4text{
+        width:253px;
+        margin-top:40px;
+        
+    }
+    .footer-about{
+        width:300px;
+        margin-top:130px;
+    }
+    .footr-contact{
+        margin:0 auto;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .logo-img{
+        width:85px;
+    }
+}
+
+@media only screen and (max-width:460px){
+    .logo-img{
+        width:75px;
+    }
+}

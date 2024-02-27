@@ -1,0 +1,155 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#nav{
+    width:100%;
+    padding:30px;
+    background-color:#EEEEEE;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.menu-bar{
+    display:none;
+}
+
+.h2-paragon-gallery{
+    color: #2E2E2E;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteiner{
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-list{
+    width:55%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+}
+
+.nav-list>li>a{
+    text-decoration:none;
+    color:#222;
+    font-family:Inter;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
+}
+
+.header-icon{
+    width:10%;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    cursor:pointer;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.about-paragon-gallery{
+    width:100%;
+    padding:15px;
+    background-color:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about-conteiner{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+}
+
+.section-price{
+    width:100%;
+    padding:50px;
+    background-color:#EEEEEE;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.footer{
+    width:100%;
+    min-height:400px;
+    background-color:#EEEEEE;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.footer-conteiner{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-about{
+    width:350px;
+}
+
+.paragraf-icon{
+    width:300px;
+}
+
+.icon{
+    padding:15px;
+    gap:32px;
+}
+
+.footer-contact{ 
+    width:350px;
+    
+}
+
+.footer-paragon{
+    color:#2E2E2E;
+    font-family:Inter;
+    font-size:32px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
+}
+
+.footer-h4text{
+    width:253px;
+    height:151px;
+    flex-shrink:0;
+    color:#000;
+    font-family:Inter;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
+    margin-top:40px;
+}
+
+.footer-contact-h4text{
+    color:#000;
+    font-family:Inter;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
+    margin-top:30px;
+}
